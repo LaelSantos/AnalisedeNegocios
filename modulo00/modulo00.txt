@@ -1,0 +1,35 @@
+Módulo 00 - CPRE -Certificação de Engenharia de Requisitos
+
+Cone de Aprendizado
+
+Depois de duas semanas você lembra de...
+
+10% do que você lê
+20% do que você ouve
+30% do que você vê
+50% do que você ouve e vê
+70% do que você diz
+90% do que você diz e faz
+
+O plano nunca resiste ao campo de batalha
+
+Evitar o pensamento: "Mas isso eu já sabia"
+
+Aprendendo novo ponto de vista
+Requisito: uma necessidade, uma capacidade que uma parte interessada um usuário possui.
+
+Metodos ágeis pode ser entendido como uma hipótese, podendo tornar falso durante o desenvolvimento
+___________________________________________
+
+Resumo:
+
+ - Foi possível entender sobre a certificação CPRE, quem criou e o instituto e a empresa responsável no Brails.Como será o treinamento e como fazer os estudos e simulados, para desta forma ter um bom resultado.
+
+Forma de estudo:
+
+1 - Ver vídeos (marcar pontos interessantes)
+2 - Ler apostila Fundamentos da Engenharia de Requisitos (Fazer anotações, rascunhos e marcações)
+3 - Ler CPRE Syllabus
+4 - Fazer simulados
+5 - Revisar módulo, dependendo do resultado do simulado.
+ 
