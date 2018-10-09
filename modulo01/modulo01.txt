@@ -1,0 +1,175 @@
+Módulo 01 -- Introdução e Fundamentos
+
+Parte 01 
+
+
+Engenharia de Requisitos: É uma abordagem sistemática e disciplinada para a especificação e gerenciamentos 
+dos requisitos.
+
+Objetivos da ER:
+1 - Conhecer os requisitos, alcançar o consenso entre as parte interessadas sobre os 
+requisitos, documentá-los de acordo com os padrôes e gerenciá-los sistematicamente.
+Trabalhar com as partes interessadas para que decidam o que deve ser feitos primeiro
+
+2 - Entender e documentar os desejos e necessidades das partes interessadas, especificando e genrenciando requisitos para minimizar os risco de entregar um sistema que não atende aos desejos e necessidades das partes interessadas.
+
+Parte 02
+
+Atividades centrais da Engenharia de Requisitos:
+1 - Elicitação
+	- Trás à tona os desejos e necessidades das partes interessadas.
+	- Diferentes técnicas são utilizadas para capturar requisitos das partes interesadas e outras fontes com o objetivo de refinar os requisitos no maior nível de detalhe.
+	- Ajuda a identificar o contexto do sistema.
+ 	- Técnicas: Entrevistas, cenários/casos de uso, observação, grupo focal, brainstorming e prototipagem.
+
+2 - Documentação
+	- É a atividade de descrição dos requisitos em liguagem natural ou modelos conceituais
+	-  Comunicar os requisitos para os desenvolvedores e as partes interessadas
+	- Especificação dos requisitos pode fazer parte do contrato do projeto.
+
+3 - Validação e Negociação
+	- Os conflitos em requisitos são resolvidos através da priorizaç~çao e negociação com as partes interessadas.
+	 - Certificaque os requisios são descritos de forma aceitável para os desenvolvedores
+	JAD
+	Priorização de requisitos
+	Modelagem
+
+4 - Gerenciamento
+	- É a atividade que tem como objetivo capturar armaenar e disseminar e gerenciar informação.
+	- Gerenciar incluir atividades relativas a mudança. controle de versão e rastreamento de requisitos.
+	- O rastreamento de requisitos é atividade que fornece o relacionamento entre requisitos e outros elementeos do projeto a fim de gerenciar suas mudanças
+
+Porque devo preocupar com engenharia de requisitos:
+60% dos erros em projetos de software origina-se em ER.
+Requisitos não capturados nos leva a uma solução de software que não atende as necessidades do cliente.
+
+Parte 03 
+
+Modelos de processos de desenvolvimento de software afeta a forma como a engenharia de requisitos é feita.
+
+1 - Fase distinta.
+	- Foca na elicitação e documentação dos requisitos em uma fase do projeto anterior a fase do desenho e da codificação
+	- O foco desses modelos é elicita todos os requisitos antes do desenvolvimento do software.
+	- Entendida como fase finita, incial e restrita ao tempo no processo de desenvolvimento de software.
+	-  A variabilidade dos requisitos é m dos maiores desafos ao projetos de software.
+ 	- Metodologia Cascata, Modelo V
+
+2 - Processo contínuo e paralelo.
+	- A elicitação de requisitos se resume ao necessário.
+	- Entende-se que os requisitos mudam ao longo do curso de um projeto.
+	- ER é considerada um processo contínuo.
+	- Exemplos de Metodologias:
+		- XP
+		- Framework Scrum
+
+Diferenças na priorização dos requisitos?
+1 - Requisitos não são bem conhecidos no início do pojetos
+2 - Requisitos mudam
+3 - Fazer mudanças não é tão caro no modelo ágil.
+
+Gerenciar a variabilidade de requisits é um desafio que os metodos ageis tentam solucionar através de duas técnicas.
+1 - Desaclopamento de requisitos.
+
+2 - Elicitação e priorização de requisitos.
+
+Diferenças da priorização
+
+ER tradicional, uma unica vez.
+Ágil realizada a cada ciclo de desenvolvimento.
+
+Parte 04
+
+Requisito:
+	1 - uma condição ou capacidade necessára de um usuário para solucionar um problema ou alcançar um objetivo. (IEE 610.12-1990)
+	2 - Uma condição ou capacidade que tem que ser atendida ou possuída por um  sistema ou componente do sistema para satisfazer um contrato, padrão, especificação ou outros documentos formalmente impostos.
+	3 - Reresentação documentada de uma condição ou capacidade conforme(1) e (2).
+
+Parte interessada:
+	- Uma pessoa ou uma organização que tem influência direta ou indireta nos requisitos do sistema.
+	- Fonte mais importante de requisitos.
+
+Desconsiderar partes interessadas resulta em um trabalho de elicitação de resquisitos imcompletas.
+
+São pessoas e organização que impactam nos requisitos.
+ -podem interagir com sistema ou não.
+
+Parte 05
+
+Teoria da comunicação
+
+Requisitos são comunicados
+
+Geralmente utilizamos linguagem natural para comunicar requisios.(efeitos transformacionais)
+
+A informação se transforma em comunicação quando os símbolos indentificados pelo receptor possuem um sentido interpretável por ele.
+
+Jargões de uma determinada área é um conjunto de símbolos compreensíveis por um grupo de pessoas que possuem um conjuto de habilidades específicas.
+
+O que fazer pra comunicar melhor?
+	Entender e comunicar melhor - como analista
+	- O glossário é um instrumento que visa facilitar a comunicação através da exposição de palavras e seus significados.
+	- UML é um exemplo de ferramenta descritiva e formal utilizada para comunicar mensagens.
+
+Na comunicação verbal o sucesso baseia-se na redundância e feedback.
+Podemos mencionar como redundância os gestos e a entonação.
+Comunicação escrita a informação é transmitida com o mínimo de redundância e feedback.
+
+Parte 06 
+
+Características do Engenheiro de requisitos
+	Assume papel importante no projeto
+
+É o responsável por estar familiarizado com o domínio e entendê-lo o melhor possível.
+Responsável por capturar as necessidades das partes interessadas e transmitir essas necessidades a arquitetos e desenvolvedore de forma que estes possam entendê-las e implementá-las.
+Atua como tradutor do dominio e de sua linguagem particular.
+
+Características do Engenheiro de Requisitos
+
+	- Raciocínio Analítico
+	- Empatia Capacidade de colocar no lugar da pessoa
+	- Habilidade de comunicação
+	- Resolução de conflitos
+	- Habilidade de Moderação
+	- Autoconfiança
+	- Persuasão
+
+Parte 07 
+
+Tipos de requisitos:
+
+	- Requito Funcional:
+		- Funcionais
+		- Comportamentais
+		- Estruturais
+	
+	- Requisito de Qualidade (Requisito não funcional)
+		- Escalabilidade
+		- Portabilidade
+		- Segurança. Etc...
+		- Desempenho	
+	- Restrição (limita o espaço da solução) 
+	
+Parte 08 
+
+Categorização dos Requisitos de Qualidade
+
+Requisitos de qualidade geralmente não são documentados ou sao documentados inadequadamente.
+
+A ISO/IEC 9126 propõe uma categorização dos requisitos de qualidade.
+
+Requisitos que definem o desempenho do sistema.
+Requisitos que definem segurança do sistema.
+Requisitos que definem a confiabilidade das funcionalidades.
+Requisitos que definem a usabilidadade do sistema.
+Requisitos que definem a modificabiidade do sistema.
+Requisitos que definem a portabilidade do sistema.
+
+Cuidado com o requisitos de qualidade
+
+Requisitos de qualidade estão relacionados a vários requisitos funcionais. E, portanto devem ser mantidos separados dos requisitos funcionais.
+Requisitos de qualidade devem ser documentados separadamente dos requisitos funcionais e nesta, documentação, deve constar sua relação com os demais tipos e requisitos.
+
+-----------------------------------------------------------------------------------
+Resumo:
+
+Neste módulo com aprendizado, compreendi sobre a área de Engenharia de Requisitos sua definição e as áreas centrais em que se faz uso da elicitação, documentação, validação e negociação e gerenciamento, como como também as características de um engenheiro de requisitos, entendendo como é a comunicação. Por fim vendo como é todos tipos de requisitos que trata na análise.
