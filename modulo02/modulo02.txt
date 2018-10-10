@@ -1,0 +1,126 @@
+Módulo 2 - Delimitar o Sistema eo Contexto do Sistema.
+
+Parte 01
+
+1 - Sistema Contexto e Limites
+
+Engenharia de Requisitos
+
+Os requisitos não existem simplismente. Precisam ser elicitados.
+
+Elicitar vem do inglês Draw Forth. Signigica trazer à tona o que não está tão claro assim.
+
+Papel do engenheiro separar o que precisa e não precisa. Trazer o que não está tão claro.
+
+Porque definir os limites do sistema e do contexto?
+
+	Quando indentifica os dois limites do sistema e do contexto entendemos a parte do ambiente que influencia os requisitos.
+
+Contexto do Sistema: É a parte do ambiente do sistema que é relevante para entender e definir os requisitos do sistema a ser desenvolvido.
+
+Aspectos da realidade que influenciam o contexto do sistema:
+
+	- Partes interessadas(Stakeholders)
+	- Sistemas em operação
+	- Processos
+	- Eventos 
+	- Documentação(fonte de requisitos)
+ 
+Quando não se compreende corretamente o contexto do sistem os requisitos estão incompletos e incorretos. Fator preponderante para uma boa definição ou um bom trabalho de requisitos.
+Requisitos incompletos e incorretos são uma das principais razões do insucesso de projetos de software.
+Detectados somente durante a utilização do sistema.
+
+Onde os requisitos nascem?
+Requisitos nascem no contexto do sistema.
+
+Importante documentar o contexto do Sistema?
+Requisitos são definidos para um contexto específico e, portanto, é importante ocnhecer bem o contexto em questão.
+
+A documentação do contexto do sistema deve ser orientada à finalidade de uso.
+
+Documentação pode ser feita através de 3 técnicas:
+
+* DFD - Diagrama de Fluxo de Dados
+* Diagrama de Caso de Uso
+* Diagram de Classe(UML)
+
+Para se documentar de fomra completa o contexto do sistema várias formas de documentação são utilizadas.
+
+Qual é o profissional responsável pelo contexto do sistema?
+
+O engenheiro do requisitos é o responsável pela indentificação do contexto do sistema.
+
+Limite do Sistema: Separa o sistema do seu ambiente.
+Ou seja separa tudo que pode ser modificado pelo processo de desenvolvimento de software daquilo que não pode ser modificado.
+
+O sistem interage com seu ambiente através de interfaces. Uma interface é o meio através do qual ocorre a interação entre sistema e seu ambiente.
+
+Como indentificar as interfaces do sistema com seu ambiente?
+
+Através da indentificação de fontes e destinos de dados.
+
+Uma fonte fornece dados de entrada para o sistema
+Um destino recebe dados de saída do sistema.
+
+As fontes e destinos mais comuns para um sistemã são:
+	- Grupo de partes interessadas
+	- Sistemas existentes
+
+O escopo do sistema é indentificado quando definimos claramente o limite do sistema.
+
+Zona cinzenta entre o Sistema e o Contexto:
+
+O limite do sistem só em bem definido ao fim do processo de engenharia de requisistos. Até mesmo certas interfaces não são completamente indentificadas.
+Certas qualidade do sistema tambéms são indentificados somente ao fim do processo de ER.
+
+Separação incicialmente vaga entre o que faz parte do escopo do sistema e o que não faz parte do sistema(contexto do sistema) é a chamada zona cinzenta entre o sistema e o contexto.
+
+Zona Cinzenta é sinônimo de incerteza. É aquilo que não se sabe ao certo se faz parte ou não do sistema.
+
+A descoberta de detalhes sobre o escopo do sistema durante o processo de engenharia de requisitos é o que chama de deslocamento da zona cinzenta.
+
+É papel do engenheiro de requisitos esclarecer a zona cinzenta entre o sistema e o contexto. Essa zona cinzenta deve ser eleminada até o fim do trabalho da engenharia de requisitos.
+
+
+Sistema: Tudo aquilo que vai ser modificado pelo processo de desenvolvimento do software.	
+
+
+Parte 02
+
+2 - Detertiminar os Limites do Sistema e do Contexto
+
+
+Limite do Contexto:
+O limite do contexto separa a parte relevante do ambiente no qual o sistema está inserido da parte irrelevante que não influencia o sistema. Essa partte irrelevante NÃO é tratada pela engenharia de requisitos.
+
+O limite do contexto só é bem conhecido ao fim do trabalho da Engenharia de Requisitos
+
+Zona Cinzenta entre o contexto e o Ambiente Irrelevante
+Essa separação inicialmeente vaga entre o que está ou não relacionado ao sistema é chamada de zona cinzenta entre o contexto o ambiente irrelevante.
+
+É praticamente impossivel eliminar a zona cinzenta que existe entre o contexto do sistema e o ambiente irrelevante.
+
+A zona cinzenta entre o contexto do sistem e o ambiente irrelevante engloa os aspectos dos quais não se pode afirmar com certeza se estão relacionados ao sistema ou não.
+
+Porque é impossível?
+
+1 - Examinar todos elementos que pode ou não fazer parte do contexto é praticamente impossível.
+
+2 - Em alguns casao é dificil indentificar se o elemento ingluencia ou se se são influenciados ou não pelo sistema.
+
+Não é trabalho eliminar a zona cinzenta.
+
+Para definir o limite do sistema você deve perguntar:
+Quais aspectos pertencem ao sistem ao ser desenvolvido e quais aspectos fazem parte do contexto do sistema?
+
+Para definir o limite do contexto você deve perguntar:
+Quais aspectos que fazem parte do contecto do sistema, ou sej, tem relação com o sitema e quais são as partes do ambiente irrelevante?
+
+
+Definir em uma frase o que é o limite do contexto:
+
+ - Limite do contexto é o que separa o que é irrelevante do que é relevante.
+
+
+--------------------------------------------
+Resumo: Neste módulo compreendi a finalidade e o motivo de delimitar o sistema, como também ter o limite do sistema e a zona cinzenta do mesmo, como também o limite do contexto e a zona cizenta do mesmo, e o ambiente irrelevante. Entendendo assim que para ter os requisitos tem que saber o contexto do sistema, onde estão as fontes de entradas e destinos que recebe a saída do sistema e as partes interessadas são muito importantes para a elicitação de requisitos.
