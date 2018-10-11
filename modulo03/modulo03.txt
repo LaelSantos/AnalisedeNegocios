@@ -45,6 +45,19 @@ Um bom checklist pode ser utilizado para organizar o trabalho de indentificação 
 Partes interessadas não identificadas resultam em aspectos do sistema são omitidos, o objetico do sistema pode ser comprometido e o custo das modificações pode ser proibitivo.
 
 O ponto de partida para identificar partes interessada é a indicação feita por gestores e especialistas.
+
+Durante a indentificação das partes interesadas utilizamos panilhas para organizar o trabalh. Os seguintes dados podem ser capturados durante esse trabalho:
+
+* Nome 
+* Papel
+* Dados de contato
+* Disponibilidade durante o projeto
+* Relevância
+* Área de expertise
+* Objetivos e interesse da parte interessada
+
+O envolvimento contínuo das partes interessadas apoio o engenheiro de requisitos na indentificação de outra partes interessadas e em transformar essas em colaboradores dos projetos
+
 _________________________________________________________________________________
 Parte 02 - Categorização de Requisitos conforme o Modelo de Kano
 
