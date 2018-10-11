@@ -1,0 +1,53 @@
+Módulo 03 
+
+Parte 01  - Fontes de Requisitos
+
+Fontes de requisitos: 
+1 - Parte interessadas que são fontes de requisitos que pode incluir
+
+	- Usuários de sistema
+	- Operadores de sistema
+	- Desenvolvedores
+	- Arquitetos
+	- Clientes
+	- Testadores
+
+2 - Sistema legados são os sistemas em opração e são fontes de requisitos.
+	- São fontes de requisitos, pois podem necessitar de dados de entradas, assim como tambpém pode fornecer dados de saída, que podem ser os dados de entrada do outro sistema que usará os dados do sistema legado, sendo fontes de requisitos.
+	
+	
+
+3 - Documentação contém informação que podem fornercer requisitos
+Documentação pode incluir:
+
+	- Padrões
+	- Documentos legais
+	- Doucumentação específica de domínio
+	- Documentos da organização
+	- Documentos de requisitos
+	- Relatórios de erros de sistemas legados
+
+Indentificar partes interessadas é papel do engenheiro de requisitos
+(Toma muito tempo do engenheiro dos requisitos)
+
+"Partes interessadas são a fonte mais importante de requisitos."
+
+É responsabilidade do engenheiro de requisitos coletar, documentar, e consolidar objetivos e requisitos conflitantes de diferentes partes interessadas(stackeholders).
+
+A não identificação de uma parte interessada pode significar requisitos não identificados. E durante a operação do sistema esses requisitos não identificado aparecerão em forma de solicitações de demanda.
+Demandas(mudanças, solitcitações de mudanças) resultantes de partes interessadas não identificadas geram altos custos. 
+
+
+No exame de certificação vai encontrar questões sobre o papel de engenheiro requisitos durante a elicitação.
+
+Um bom checklist pode ser utilizado para organizar o trabalho de indentificação das parte interessadas.
+
+Partes interessadas não identificadas resultam em aspectos do sistema são omitidos, o objetico do sistema pode ser comprometido e o custo das modificações pode ser proibitivo.
+
+O ponto de partida para identificar partes interessada é a indicação feita por gestores e especialistas.
+_________________________________________________________________________________
+Parte 02 - Categorização de Requisitos conforme o Modelo de Kano
+
+
+_________________________________________________________________________________
+Parte 03 -  Técnicas de Elicitação

@@ -13,6 +13,8 @@ Trabalhar com as partes interessadas para que decidam o que deve ser feitos prim
 
 2 - Entender e documentar os desejos e necessidades das partes interessadas, especificando e genrenciando requisitos para minimizar os risco de entregar um sistema que não atende aos desejos e necessidades das partes interessadas.
 
+
+__________________________________________________________________________________________________________________________________
 Parte 02
 
 Atividades centrais da Engenharia de Requisitos:
@@ -42,6 +44,8 @@ Atividades centrais da Engenharia de Requisitos:
 Porque devo preocupar com engenharia de requisitos:
 60% dos erros em projetos de software origina-se em ER.
 Requisitos não capturados nos leva a uma solução de software que não atende as necessidades do cliente.
+
+__________________________________________________________________________________________________________________________________
 
 Parte 03 
 
@@ -77,6 +81,8 @@ Diferenças da priorização
 ER tradicional, uma unica vez.
 Ágil realizada a cada ciclo de desenvolvimento.
 
+__________________________________________________________________________________________________________________________________
+
 Parte 04
 
 Requisito:
@@ -93,13 +99,15 @@ Desconsiderar partes interessadas resulta em um trabalho de elicitação de resqui
 São pessoas e organização que impactam nos requisitos.
  -podem interagir com sistema ou não.
 
+__________________________________________________________________________________________________________________________________
+
 Parte 05
 
 Teoria da comunicação
 
 Requisitos são comunicados
 
-Geralmente utilizamos linguagem natural para comunicar requisios.(efeitos transformacionais)
+Geralmente utilizamos linguagem natural para comunicar requisitos.(efeitos transformacionais)
 
 A informação se transforma em comunicação quando os símbolos indentificados pelo receptor possuem um sentido interpretável por ele.
 
@@ -113,6 +121,8 @@ O que fazer pra comunicar melhor?
 Na comunicação verbal o sucesso baseia-se na redundância e feedback.
 Podemos mencionar como redundância os gestos e a entonação.
 Comunicação escrita a informação é transmitida com o mínimo de redundância e feedback.
+
+__________________________________________________________________________________________________________________________________
 
 Parte 06 
 
@@ -148,6 +158,8 @@ Tipos de requisitos:
 		- Segurança. Etc...
 		- Desempenho	
 	- Restrição (limita o espaço da solução) 
+
+___________________________________________________________________________________________________________________________________________
 	
 Parte 08 
 
@@ -169,7 +181,40 @@ Cuidado com o requisitos de qualidade
 Requisitos de qualidade estão relacionados a vários requisitos funcionais. E, portanto devem ser mantidos separados dos requisitos funcionais.
 Requisitos de qualidade devem ser documentados separadamente dos requisitos funcionais e nesta, documentação, deve constar sua relação com os demais tipos e requisitos.
 
------------------------------------------------------------------------------------
+___________________________________________________________________________________________________________________________________________
 Resumo:
 
-Neste módulo com aprendizado, compreendi sobre a área de Engenharia de Requisitos sua definição e as áreas centrais em que se faz uso da elicitação, documentação, validação e negociação e gerenciamento, como como também as características de um engenheiro de requisitos, entendendo como é a comunicação. Por fim vendo como é todos tipos de requisitos que trata na análise.
+Neste módulo como aprendizado, 
+compreendi sobre a área de Engenharia de Requisitos sua definição 
+	É uma abordagem sistemática e disciplinada para especificação e gerenciamento de requisitos.
+
+As áreas centrais da ER :
+	Elicitação, 
+	Documentação, 
+	Validação e negociação,
+	Gerenciamento.
+ 
+As características de um engenheiro de requisitos:
+	Racionio Lógico
+	Empatia
+	Habilidade de comunicação
+	Resolução de conflitos
+	Moderação
+	Auto confiança
+	Persuasão	
+
+Sendo muito importante as formas de comunicação sendo elas a linguagem natural e a comunicação verbal. 
+
+Por fim vendo como é todos tipos de requisitos que trata na análise
+	 Requito Funcional:
+		 Funcionais
+		 Comportamentais
+		 Estruturais
+	
+	 Requisito de Qualidade (Requisito não funcional)
+		 Escalabilidade
+		 Portabilidade
+		 Segurança. Etc...
+		 Desempenho	
+	 Restrição (limita o espaço da solução) 
+
