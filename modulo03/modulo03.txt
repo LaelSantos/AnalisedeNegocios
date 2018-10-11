@@ -56,11 +56,332 @@ Durante a indentificação das partes interesadas utilizamos panilhas para organiz
 * Área de expertise
 * Objetivos e interesse da parte interessada
 
-O envolvimento contínuo das partes interessadas apoio o engenheiro de requisitos na indentificação de outra partes interessadas e em transformar essas em colaboradores dos projetos
+
+O envolvimento contínuo das partes interessadas apoio o engenheiro de requisitos na indentificação de outra partes interessadas e em transformar essas em colaboradores do projeto.
+
+Riscos de colaboração para a engenharia de requisitos:
+-- Partes interessadas podem não estar completamente motivadas com o trabalho da ER no novo sotware.
+
+Isso pode acontecer quando elas estão satisfeitas com o sistema legado, medo da mudança ou tem medo devido a experiências negativas no passado.
+
+O engenheiro de requisitos também trabalha em parceria com o gerente de projetos no trabalho de convencer as partes interessadas quanto ao benefício do negócio. Fundamental para o sucesso da engenharia de requisitos. 
+
+Para evitar desentendimentos e disputas entre o engenheiro de requisitos e o gerente de projetos é importante a definição de papéis e responsabilidades.
+Pode ser feito de forma formal e informal.
+
+
+Obrigações e previlégios do engenheiro de requisitos:
+
+	- Fala a língua das partes interessadas.
+	- Se familiarizar com o domínio da aplicação
+	- Cria o documento de requisitos
+	- Manter relacionamento com as partes interessadas
+	- Apresentar suas ideias, alternativas e realizações
+	- Permite que as partes interessadas demandarem propiedades para tornar o sisema simples e amigável (escutar parte interessadas e ver o que o sistema precisa)
+	- Garante que o sistema satisfaz demandas funcionais e de qualidade das partes interessadas
+ 
+Obrigações das partes interessadas:
+	
+	- Declaram os requisitos para o engenheiro de requistos
+	- Documenta requisitos
+	- Tomam decisões pontuais
+	- Respeitam as estimativas de custo e viabilidade do engenheiro de requisitos
+	- Priorizam requisitos
+	- Inspecionam requisitos que o engenheiro de requisitos documenta
+	- Comunicam prontamente mudanças em requisitos
+	- Respeita o processo de engenharia de requisitos
+
+Exame questões sobre responsabilidade do engenheiro de requisitos e das partes interessadas durante a elicitação
+
+
+Técnicas de elicitação determinam a comuicação e o processo
+
+	- O engenheiro de requisitos planeja e organiza a comunicação
+	
+	- O engenheiro de requisitos rascunha um cronograma das atividades da engenharia de requisitos que serão executadas em conjuntos com as partes interessadas.
+
+
 
 _________________________________________________________________________________
 Parte 02 - Categorização de Requisitos conforme o Modelo de Kano
 
 
+
+Conhecer a importância dos requisitos para a satisfaçãodas partes interessadas é muito importante para a elicitação do requisitos.
+
+A gestão da qualidade basicamente satisfazer as necessidades do cliente. Porém, descobrir essas necessidades é um grande desafio, uma vez que estas podem estar implícitas ou explícitas.
+
+As propiedades de um produto determina a satisfação das partes interessadas.
+Classificadas em:
+
+1 - Fatores básicos de Satisfação:	
+	- São propiedades do sistema que são auto-evidentes e tidas como certas. É o conhecimento subconsciente. Sabe o óbvio e não comunica
+
+2 - Fatores esperados de Satisfação:
+	- São propiedades do sistema que explicitamente são demandadas(requiridas das partes interessadas). É o conhecimento consciente.
+
+3 - Fatores inesperados de Satisfação:
+	- São propiedade do sistema que as partes interessadas não conhecem ou não esperam e descobrem durante a utilização do sistema. Essas propiedades são úteis para o cliente. É o conhecimento inconsciente.
+
+Com o passar do passar do tempo aquilo que encanta as pares interessadas passa a ser visto como satisfações e insatisfações a medida em que o usuário utiliza o sistema.
+
+Os três tipo de categoria de satisfação precisam ser considerados durante a elicitação de requisitos. 
+
+Fatores básicos de satisfação:
+
+	- Precisam ser atendidos pelo sistema e, caso não venham  a ser implementados, as partes interessadas ficarão desapontadas e insatisfeitas.
+
+	- Quando satisfeitos não geram nenhuma disposição positiva, porém, evitam o descontentamento.
+
+	- São afetados por sisemas já existentes, portanto, técnicas de observação e de análise de documentação são úteis para a elicitação neste caso.
+
+
+Fatores esperados de satisfação
+	
+	- São propiedades que são conhecidas conscientemente pela partes interessadas e explicitamente solicitadas por ela.
+
+
+	- Quando atendidas as partes interessadas ficam  satisfeitas, o que é desejável.
+
+	- Se alguma propiedade for esquecida, então provalvemente o sistema não será aceito pela partes interessadas.
+
+	- A satisfação das partes interessadas diminuem a medida em que percebem este tipo de propiedade faltando.
+
+	- Requisitos conscientes que podem ser elecitados utilizando técnicas de pesquisa.
+
+Fatores inesperadas de satisfação:
+	
+	- São propiedades do sistema cujo valor é reconhecido apenas quando a parte interessada pode experimentar o sistema por si próprio ou o engenheiro de requisitos propõe.
+	
+	- Utiliza-se técnicas criativas para elicitar requisitos do sistema.
+
+Técnicas apropriadas para cada tipo de categoria conforme o Modelo de Kano
+
+Fatores básicos de satisfação: Técnicas de observação e documentação
+
+Fatores esperados de satisfação: Técnicas de pesquisa
+
+Fatores esperados de satisfação: Técnicas de criatividade
+
+Saber quais são as técnicas de elicitação apropiadas para cada tipo de requisitos.
 _________________________________________________________________________________
 Parte 03 -  Técnicas de Elicitação
+
+Ao utilizar as técnicas de elicitação o engenheiro de requisitos avalia o conhecimento e os requisitos da partes interessadas.
+A decisão de quando e como utilizar uma técnica de elicitação vai depender das condições apresentadas.
+
+"Não existe um método universal para elicitar requisitos"
+
+Cada projeto é único e possui restrições  e características individuais que afetam  a escolha das técnicas de elicitação.
+
+Os fatores mais importantes que devem ser levados em consideração na escolha das técnicas de elicitação são:
+
+	* A distinção entre requisitos conscientes, subconscientes, e inconscientes.
+	* Restrições de tempo e orçamento e disponibilidade das partes interessadas.
+	* A experiência do engenheiro de requistos com uma técnica em particular
+	* As oportunidades e riscos do projeto.
+
+Riscos associados a técnicas de elicitação
+
+A primeira coisa que o engenheiro deve fazer ao escolher a técnica de elicitação é realizar uma análise de restrições críticas ao projeo. Exemplo: Identificar fatores de risco.
+
+Esses riscos resulta de pessoas, organização e influências profissionais
+
+Influência das Pessoas:
+
+	- Durante a elicitação de requisitos, que é altamente influenciada pela partes interessadas, a boa comunicação é essencial.
+	- Para uma boa comunicação é fundamental determinar o tipo de requisito, o nível de detalhe desejado e o grau de experiência do engenheiro de requisios e das parte interessadas com as técnicas de elicitação.
+	- As capacidade cognitivas, os aspectos sociais e dinÂmica do grupo influenciam também a escolha das técnicas de elicitação.
+	- Outro aspecto a ser levado em consideração é se o conhecimento é explícito pela parte interessada ou se é implícito.
+
+Influência da Organização
+
+	- Os fatores de risco organizacionais precisam ser investigados.
+	
+	- Os seguintes fatores de risco precisam ser considerados:
+		- O projeto tem custo fixo?
+		- É um contrato e serviço?
+		- É um novo projeto de sotware ou é um projeto de alteração de 			sistema legado?
+
+Influência operacional de Conteúdo:
+
+	- É necessário considera o conteúdo operacional dos requisitos.
+	
+	- Se o sistema é muito compleco então é necessário uma abordagem de que elicitação que permite entender cada parte do requisito.
+
+Técnicas apropiadas para cada tipo de requisitos
+
+Fatores básicos de satisfação  ---- Técnicas de observação e documentação
+
+Fatores Esperados de satisfação ---- Técnicas de pesquisa
+
+Fatores Inesperados de Satisfação ---- Técnicas de criatividade
+
+Correlação entre os detalhes de dos requisitos e as técnicas de elicitação.
+
+baixo nivel de detalhes : técnicas de criatividade
+
+médio nível de detalhes: técnicas de pesquisa e observação
+
+alto nível de detalhes: técnicas de documentação
+
+Técnicas de Elicitação:
+
+
+Técnicas de Pesquisa: Entrevisa e questionário
+
+Técnicas de Criatividade: Brainstorming, paradoxo de brainstorming, mudanças de perspectiva e técnicas de analogia
+
+Técnicas de Documentação: Arqueologia de sistema, leitura baseada em perspectiva e reutilização
+
+Técnicas de Observaçã: Observação e campo e aprendizado.
+
+Dica para exame = saber indentificar como cada técnica auxilia o trabalho de elicitação
+
+Técnicas de pesquisa:
+
+ - Tem como objetio a elicitação precisa e não direciona de requisitos das partes interessadas
+
+ - Esse tipo de técnica assume que o participante é capa de expressar seu conhecimento e que o mesmo está disposto a investir tempo e esforço na atividade.
+
+ - Técnica de pesquisa são conduzidas pelo engenheiro de requisitos que faz perguntas ao entrevistado.
+
+ - Em algun caso preocupações das partes interessadas podem ser esquecidas, substitudas ou desconsideradas.
+
+ - Os dois tipo de técnica de pesquisa são entrevistas e questionários.
+
+Entrevista:
+
+ - Durante a entrevista o engenheiro de requisitos faz perguntas previamente selecionadas para uma ou mais partes interessadas e documenta as respostas
+
+ -  Perguntas podem surgir duraten a conversa e podem ser discutidas imediatamente.
+
+ -  Requisitos subconscientes podem ser descoberto com perguntas simples e diretas.
+
+ - Entrevista podem ser utilizadas durante toda a fase de desenvolvimento do sistema.
+
+ - Um entrevistador experiente controla o curso da entrevista,  tempo, identifica, aspectos específicos, se compromete com as partes interessadas e garante que as respostas estão completas.
+
+ -  A desvantagem desse tipo de elicitação é o alto consumo de tempo.
+
+Questionário:
+
+ - Faz uso de perguntas abertas e fechadas.
+
+ -  Quando existem muitos participantes é recomendável a utilização de uma ferramenta online.
+
+ - Pode-se se capturar considerável informação e um pequeno espaço de tempo e com baixo custo.
+
+ -  A desvantagem desse tipo de técnica é que apenas requisitos que o engenheiro de requisitos conhece ou conjectura pode ser capturados.
+
+ - Prepara um questionário é desafiador e consome tempo considerável.
+
+ - Esta técnica, diferentemente da técnica de entrevista, não fornece resultado imediato, isso pode dar a enter que questões foram esquecidas ou foram mal formuladas
+
+Técnicas de Criatividade:
+
+ - São utilizadas para elicitar requisitos inovadores.
+
+ -  Técnicas de criatividade não são bem aplicadas quando se deseja um nível maior de detalhes dos requisitos.
+
+ - Incluem:
+	 Brainstorming:
+		* As idéias são capturadas em um espaço de tempo previamente negociado.
+		* Grupo de 5 a 10 pessoas participam
+		* As ideia são documentadas pelo moderaro sem discussão, julgamento ou comentários sobre as ideias.
+		* Uma ideia pode ser utilizada por outro participante para gerar outra ideia.
+		* Depois de coletadas, as ideias são analisadas.
+		* Essa técnica é especialmente efetiva quando um grande número de pessoas de diferentes grupos estão envolvidas.
+		* Uma vantagem desta técnica é a geração de muitas ideias em um pequeno espaço de tempo e a colaboração permite ideias sejam aprimoradas.
+		* Essa técnica é menos efetiva quando a dinâmica do grupo é confusa ou quando participantes com diferente níveis de liderança estão envolvidos. Neste caso recomenda-se utilizar o método 6-3-5 ou o méto bainwriting.
+
+
+
+
+
+
+	Paradoxo de Brainstorming:
+		* É uma modificação da técnica de brainstorming.
+		* Envolve a coleta de eventos que não devem ocorrer.
+		* Depois da coleta os participantes desolvem medidas para previnir a ocorrência dos eventos antes do seu acontecimento.	
+		* Indentifica-se riscos no início.
+		* Vantagens e desvantagens deste técnicas são idênticas ao da teécnica de brainstorming.
+
+	Mudança de Perspectiva:
+		* Envolve adotar pontos de vista diferentes.
+		* A técnica comum é a Seis Chapéis do Pensamento. (retrospectiva)
+		* Cada um dos chapéos representa uma perspectiva em particular que será adotada pelos participantes.
+		* O resultado é uma coleção de pontos de vista distintos.
+		* Até mesmo aquelas partes interessadas que estão convictas do seu ponto de vitas esatão convidadas a reexaminar e adotar um diferente ponto de vista.
+
+		* Esta técnica é altamente recomendada quando as partes interessadas podem expressar seu conhecimento de forma parcial e defensoras adorosas  de suas opniões.
+		* Esta técnica não deve ser utilizada quando se deseja obter um alto grau de detalhes nos requisitos.
+
+	Técnica Orientada a Documentação:
+		* Técnicas orientadas a documentação se utilizam das soluções e experiências com sistemas existentes.
+		* Quando se deseja substituir um sistema legado por outro sistema então indetifica-se inteira funcionalidade.
+		* Técnica orientadas a documentação devem ser utilizadas em conjunto com outras técnicas para garantir a validade dos requisitos elicitados.
+
+Arqueologia do Sistema:
+	* É a técnica que extrai informação da documentação ou do código-fonte do sistema.
+	* É utilizada quando o conhecimento explícito sobre a lógica do sistema foi perdida parcial ou completamente. 
+	* Ao ecaminar o código-fonte o engenheiro de requisitos garante que nenhuma funcionalidade foi esquecida.
+ 	* Esta técnica é trabalhosa e produz requisitos com alto grau de detalhes.
+	* É a única técnica que garante que todas funcionalidade de um sistema legado serão implementadas no novo sistema.
+
+Leitura baseada em perspectiva
+
+ - É a técnica em que a validação dos requisios é feita através da conferência por se adotar diferentes pontos de vista.
+ - É utilizada quando se recisa ler documentos em um ponto de vista em particular.
+Exemplo Ler a documentação com a perspectiva do usuário do sistema.
+
+ -  Detalhes na documentação que não pertecem àquela perspectiva são desconsiderados.
+
+Reutilização:
+ 
+* Requisitos que alcançaram um determinado padrão de qualidade ou que são sérios candidatos a reutilização são registrados e estão disponíveis utilizando-se um determinado grau de detalhes necessário.
+*  Através do reuso, o custo  com a atividade de elicitação é significamente reduzido.
+
+Técnincas de Observação:
+
+ - Outra vantagem desse tipo de técnica é familiarização do engeheiro de requisitos com o jargão do domínio facilitando assim um trabalho posterior de elicitação de requisitos.
+ -  Esta técnica não é apropiada para novos processos.
+
+Observaçãode Campo:
+
+* O engenheiro de requisitos e alguma outra parte interessada especialista ou usuária do sistema observa e documenta o procedimento. 
+* A partir desta observação formulam-se requisitos.
+* Esta técnica é útil para documentar procedimentos operacionais difícies de serem expressados verbalmente.
+* Só pode ser utilizada quando o procedimento é fisicamente visível.  
+
+Aprendizado ou Apprenticing:
+
+* Esta técnica é utlizada quando o engenheiro de requisitos precisa apredner e executar atividades das partes interessadas.
+* o engenheiro de requisitos é encorajado a questionar procedimentos complexos e que não estão claro até obter experiências do domínio.
+* Ao aprender e adiquiri o conhecimento sobre um determinado procedimento ocorre um balanceamento do poder entre o engenheiro de requisitos eo especialista do domínio.
+
+Técnicas de Apoio ou suporte
+
+- Balancear as fraquezas de outras técnicas
+
+Mapa mental
+
+é a representação gráfica de relacionamentos e interdepências entre termos e conceitos.
+usadas pra brainstorming e pardox
+
+Wokshop
+ambiente coloraborativo
+
+Cartões CRC (Class Responsabibility Collaboration)
+Utilzando cartões, ou fichas usando no requisitos.
+
+Gravações de áudio e vídeo
+Quando não tem tempo das partes interessadas ou  orçamento é ilimitado. Descantagem dos stakeholders tem sensação de estarem sendo supervisionados e podem fornecer delxarações imparciais.
+
+Modelagem de casos de uso
+
+ -  Um caso de uso possui um evento que dispara um caso de uso bem como um resultado esperado.
+
+Protótipo
+
+ - apropiados quando tem que elicitar requisitos em situações onde os stakeholders apenas em uma vaga compreensão do que necessita ser desenvolvido.
