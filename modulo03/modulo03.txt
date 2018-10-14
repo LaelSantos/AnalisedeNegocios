@@ -39,6 +39,7 @@ Demandas(mudanças, solitcitações de mudanças) resultantes de partes interessadas
 
 
 No exame de certificação vai encontrar questões sobre o papel de engenheiro requisitos durante a elicitação.
+"É papel do engenheiro de requisitos coletar, documentar e consolidar as metase requisitos parcialmente conflitantes de diferentes stakeholders."
 
 Um bom checklist pode ser utilizado para organizar o trabalho de indentificação das parte interessadas.
 
@@ -385,3 +386,41 @@ Modelagem de casos de uso
 Protótipo
 
  - apropiados quando tem que elicitar requisitos em situações onde os stakeholders apenas em uma vaga compreensão do que necessita ser desenvolvido.
+
+________________________________________________________________________________________________________________________________________________
+
+Resumo:
+
+Como uma atividade central da engenharia de requistos é a elicitação de requisitos ou seja o levantamento dos requisitos.
+Os tres tipos diferentes de fontes de requisitos são:
+
+ * Stakeholders, principal fonte de requisitos para o sistema.
+ * Documentos
+ * Sistemas em operação: sistema legado ou concorrentes.
+
+Não identificar ou considerar partes interessadas pode resultar em significativa repercussões negativas. É papel do engenheiro de requisitos coletar, documentar e consolidar as metase requisitos parcialmente conflitantes de diferentes stakeholders.
+
+O engenheiro de requisitos pode documentar stakeholders usando tabelas e panilhas.
+Tanto parao engenheiro de requisitos quanto para os Stakeholders a direitos e deveres.
+
+Conforme o modelo de Kano os requisitos tem categorização para satisfação do cliente, sendo eles:
+
+ -  Fatores básicos de satisfação: (conhecimento subsconciente)
+	- Requisitos e propiedades que devem ser atendidos pelo sistema de qualquer maneira e que as partes interessadas não falam.
+	- Técnicas de observação e técnicas centradas a documentos são amis indicadas para estes tipos de requisitos.
+ -  Fatores esperados de satisfação: (conhecimento consciente)
+	- Requisitos e propiedades que devem ser atendidos pelo sistema que foi especificado e exigidas pelas partes interessadas.
+	- Técnicas de pesquisa, podem ser usadas para elicitar estes tipos de requisitos.
+ -  Fatores inesperadoos de satisfação: (conhecimento inconsciente)
+	- Requisitos e propiedades do sistema que não foi exigida, quando testa o sistema é reconhecida pelo stakeholder ou quando o engenheiro de requisitos as propõe.
+	- Técnicas de criatividade são mais indicadas para elicitar este tipos de fatores
+
+Várias técnicas são usadas para o levantamento de requisitos:
+
+- Técnica de pesquisa: Entrevista e questionário.
+- Ténica de Criatividade: Brainstorming, Brainstorming Paradox, mundança de perspectiva, técnicas de analogia. 
+- Técnicas baseadas em documentos: A arquealogia do sistema, a leitura baseada em perspectiva, reutilização.
+- Técnicas de Observação: Observação de campo, Apprenticing(aprendizado).
+- Técnicas de Apoio: Mapas mentais, Reunão conjunta(Workshops), Técnica CRC, gravações de áudio e vídeo, modelagem de casos de uso e protótipo.
+
+Técnicas de apoio são usadas em conjuntos com as outras técnicas que contém pontos fracos.

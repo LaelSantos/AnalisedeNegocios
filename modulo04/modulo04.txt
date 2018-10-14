@@ -1,0 +1,307 @@
+Módulo 04 - Documentação de Requisitos
+
+Parte 01 - Desenho do Documento
+
+Dura a engenharia de requisitos a informação produzida precisa ser documentada. Pode ser utilizados com base legal.
+
+Exemplos de documentação:
+	- Atas de reuniões
+	- Relatório de atividades
+	- Solicitção de mudanças
+	- Protocolos de entrevista
+	- e etc.
+
+A atividade de documentação mais importante durante e engenharia é a documentação de requisitos do sistema de maneira apropriada.
+
+Técnica de documentação é qualquer representação que facilite a comunicação entre as partes interessadas e que aumenta a qualidade dos requisitos documentados.
+
+Em princípio qualquer técnica pode ser utilizada para documentar requisitos, podem ser utilizada desde a linguagem natural até a utilização de modelos conceituais(diagrama de contexto, diagrama de fluxo de dados, diagrama de ativiades, diagrama de sequências).
+
+Mais formalidade:
+	* Modelos conceituais
+
+Menos formalidade:
+	* Linguagem natural em prosa livre
+	* Linguagem natural com texto estruturado.
+
+Especificação de requisitos:
+	-  É uma coleção de requisitos que represanta de forma sistemática geralmente para um sistema ou componente, atendendo a um conjuto de critérios.
+
+Documentos de requisitos é sinônimo de especificação de requisitos
+
+Durante o ciclo de vida de um documento de requisitos várias pessoas são encarregadas da documentação.
+
+Responsabilidade do engenheiro de requisitos cirar a especificação ou documento de requisito.
+
+Porque é importante documentar os requisitos:
+ 1 - Requisitos formam a base para o desenvolvimento do sistema.
+ 2 - Requisitos tem relevância legal.
+ 3 - Documentos de requisitos são complexos.
+ 4 - Requisitos deve ser acessíveis por todas as pares envolvidas no projeto.
+ 5 - Compartilhar uma visão única dos requisitos.
+
+
+________________________________________________________________________________________________________________________
+
+Parte 02 - Tipos de Documentação
+
+Requisitos de um sistema podem ser documentados sob três diferentes perspectivas: 
+
+na documentação de requisitos utiliza-se linguaguem natural, modelos conceituais ou a combinação de ambos.
+
+
+Perspectiva Estrutural:
+	- Documenta-se os aspectos estáticos-estruturais dos requisitos. EX: ESTRUTURA DE DADOS, entrada e saída, relações de dependências entre sistenma e o contexto e etc.
+ 
+Perspectiva Funcional:
+	- Documenta-se os dados recebidos do contexto  e processados pelo sistema, assim como os dados que retornam para o contexto. Documenta-se também nesta a ordem de processamento dos dados de entrada.
+
+Perspectiva Comportamental:
+	- Documenta-se o sistema e como este se integra  a partir dos DADOS do sistema. Documenta-se também as reações do sistema em reação ao contexto e os efeitos do sistema sobre seu ambiente.
+
+A utilização de linguagem natural em especial a prosa, é a forma mais comum de documentar requisitos.
+
+Utilizar a linguagem natural tem a vantagem de que não precisa aprender uma nova notação
+
+Desvantagem na utilização da linguagem natural:
+	- Uma desvantagem da linguagem natural é que esta permite que os requisitos sejam documentados de forma ambígua(mais de uma intrepretação).
+
+A utilização de modelos conceituais não pode ser utilizada universalmente. A utilização de modelos deve ser apropiada a perspectiva em questão.
+
+Modelos descrevem os requisitos documentados de forma resumida,e portanto, é muito mais fácil de ser entendido por um profissional treinado.
+ 
+Modelos geralmente contribuem para minimiza a ambiguidade.
+
+Que perspectiva o engenheiro de requisitos utiliza nos principais diagramas utilizados na engenharia de requisitos?
+
+Diagrama de Classes: 		Perspectiva Estrutural
+Diagrama de Atividades:		Perspectiva Funcional
+Diagrama de Estados:		Perspectiva Comportamental
+
+Diagrama de casos de uso permitem uma rápida visão geral das funcionalidades de um sistema. 
+
+Diagrama de classe são utilizados para documentar requisitos referentes a estruturas estáticas de dados.
+
+Diagrama de atividades são utilizados para modelar processos e dependências orientadas a sequência que estão no contexto do sistema. 
+
+Diagrama de estados são utilizados para documentar comportamentos orientados a eventos do sistema. 
+
+Documentos de requisitos também são utilizados para documentar decisões, importantes explanações, preocupações e outras informações importantes e relevantes.
+
+Dependendo do público- alvo utiliza-se diferentes combinções de tipos de documentação. 
+
+A combinação de diferentes tipos de documentação tem como vantagem diminuir as deficiências de um determinado tipo de documentação.
+
+_____________________________________________________________________________________________________________________________________________________________
+
+Parte 03 - Estrutura dos Documentos
+
+A documentação de requisitos pode fazer uso de documentos padronizados ou 
+doucmentos personalizados. Uma boa informação é necessária em função da grande quantidade de informações dirferentes no documento de requisitos.
+
+Estruturas podem já ter sido definidas em modelos personalizados. 
+
+5 Vantagens de usar o modelo padronizado:
+
+1. Simplificação da incoporação de novos membros do time
+2. Rápoda localização do conteúdo desejado
+3. Leitura e validação seletiva
+4. Verificação autómática quanto a se o documento foi preenchido completamente.
+5. Reutilização de conteúdo
+
+A estrutura do documento de requisitos precisa ser ajustada às necessidades do projeto.
+
+3 Estruturas de documentos de requisitos mais utilizadas.
+
+No Rational Unified Process(RUP) o cliente cria o modelo de negócios que contém diferentes artefatos do ambiente de negócios: regras de negócios, caso de uso de negócios, objetivos do negócio e etc, que servem de base para os requisitos do sistema.
+E o contratado utiliza a estrutura de documento de requisitos para documentar os requisistos de software e essa estrutura está relacionada com a norma IEEE830.
+
+A nomra IEE830-1998 contém uma estruturação para documentos de requisitos de software.
+
+1. Introdução
+	1. Metas do sistema
+	2. Limites do sistema
+2. Descrição Geral
+	1. Perspectiva do sistema
+	2. Características do usuário
+	3. Restrições ao desenvolvimento
+3. Requisitos Específicos
+	1. Funcionais
+	2. Desempenho
+	3. Qualidade
+	4. Interfaces 
+
+O modelo V difine diferente estruturas dependendo de quem é o autor do documento de requisitos.
+
+	* Especificação dos requisitos do cliente - É criado pelo contratante e descreve as exigências impostas ao contratado. Especifica as entregas e serviços que devem ser entregues. Descreve o que é feito e para que algo é feito.
+
+	* Especificação dos requisitos do sistema - Contém as sugestões de implementação elaboradas pelo contratado. Descreve como implmentar os requisitos e as restrições.
+
+Conjunto mínimo de informações para um documento de requisitos.
+
+As seguintes informações devem estar contidas na documentação personalizada:
+
+ 1. Introdução
+	- Propósito
+	- Cobertura do sistema
+	- Partes interessadas
+	- Definições, acrônimos e abreviações
+	- Referências
+	- Visão Geral
+ 2. Visão geral
+	- Ambiente do sistema 
+	- Descrição da arquitetura
+	- Funcionalidade do sistema
+	- Público alvo e usuários
+	- Restrições
+	- Premissas(pressupostos)
+ 3. Requisitos
+ 4. Apêndices
+ 5. Índice
+
+________________________________________________________________________________________________________________________________________________________
+
+Parte 04 -  Uso dos Documentos de Requisitos
+
+Documentos de requisitos servem de base de diferentes tarefas durante o projeo de desenvolvimento do sistema.
+
+Para quê o documento de requisitos é utilizado:
+
+ - Planejamento
+ - Projeto Arquitetônico
+ - Implementação
+ - Teste
+ - Gerenciamento de Mudanças
+ - uso do sistema e manutenção do sistema
+ - Gerenciamento do contrato
+
+Saber indentificar os diferentes usos do documento de requisitos
+
+
+________________________________________________________________________________________________________________________________________________________
+
+Parte 05 - Critérios de Qualidade para Documentos de requisitos
+
+O documento de requisitos deve atender a um conjunto de critérios de qualidade para que possa servir de base para trabalhos futuros de desenvolvimento do sistema.
+
+Critérios de qualidade para os documentos de requisitos:
+
+1 - Não-ambiguidade e Consistências
+	- Os requisitos precisam ser consistentes e não-ambiguos
+	- Os requisitos individuais não podem se contradizer
+	- Recomenda-se o uso de modelos conceituais
+	- Todo requisito deve ter um identificador único.
+
+2 - Estrutura Clara
+	- Deve ser abrangente e bem estruturado.
+	- Permite a leitura seletiva.
+
+3 - Modificabilidade e Extensibilidade
+	- Deve ser facilmente extensível.
+	- A estrutura deve ser facilmente modificável.
+	- Deve ser fácil de ser gerenciado pelo controle de versionamento do projeto.
+
+4 - Completude
+	- Devem conter todos os requisitos relevantes.
+	- Cada requisito deve ser documentado de forma completa 
+	- Cada função do sistema deve ter a identificação de todos dados de entrada, fatores que o influenciam e reações exigidas do sistema.
+	- Requisitos de qualidade também podem aparecer no documento.
+	- Gráficos e tabelas devem ser claramente identificados e rotulados.
+	- O índice deve ser consistente.
+
+5 - Rastreabilidade
+	- O relacionamentos entre o documento de requisitos e outros documentos devem estar claramente identificados.
+	- A clara identificação dos relacionamentos auxilia no gerenciamento da mudança.
+
+Necessário indentificar todos os critérios de qualidade para documentos de requisitos assim como a implicação dos mesmos.
+
+_____________________________________________________________________________________________________________________________________________________
+
+Parte 06 - Critérios de Qualidade para Requisitos
+
+Quando os requisitos obedecem um conjuto de critérios de qualidade aumenta-se a probabilidade de serem aceitos pelo leitor.
+
+A nomra IEEE830-1998 define os seguintes critérios:
+* Acordado
+* Priorizado
+* Não ambíguo
+* Válido e Atualizado
+* Correto 
+* Consistente
+* Verificável 
+* Realizável
+* Rastreável
+* Completo
+* Compreensível
+
+Acordado
+ - O requisito está correto na opnião das partes interessadas.
+ - Todas as partes interessadas o aceitam como válido.
+
+Priorizado
+ - Quando as funcionalidade não pode ser implementadas ao mesmo tempo, ou até pelo nível de complexibilidade, as partes interessadas precisam classificar os requisitos quanto a importância, obrigatoriedade legal ou prioridade.
+
+Não-ambíguo
+ - Admite apenas uma única interpretação.
+ - Todos os leitores possuem o mesmo entendimento sobre o requisito.
+ 
+Válido e Atulizado
+ - É quando o requisito representa os fatos e os mesmo conferem com as características atuais do sistema.
+
+Correto
+ - É quando o requisito representa de forma adequada a ideia da parte interessada.
+
+Consistente
+ -Quando o requisito não se contradiz e não contradiz outros requisitos.
+
+Verificável
+ - é quando o requisito permite a sua verificação
+ - Testes e mensurações podem ser realizados.
+
+Realizável
+ - É quando a implementação do requisito é possível.
+
+Rastreável
+ - É quando o requisito possui seus relacionamentos com outro requisitos e artefatos claramente identificados.
+
+Completo
+ - É quando requisito descreve na totalidade a funcionalidade que ele especifica.
+
+Compreensível
+ - É quando partes interessadas entendem o requisito e seu próposito.
+
+
+Tornar os requisitos mais legíveis
+
+1- Utilizar sentenças e parágrafos curtos
+	- Limite a 7 frases
+2 - Formular um único requisito por frase
+	- Utilize a voz ativa.
+	- Evite frases longas e complexas.
+
+_____________________________________________________________________________________________________________________________________________________
+
+Parte 07 - Glossário
+
+Causa frequente de conflitos na engenharia de requisitos:
+Um das causas mais frequentes são as diferentes interpretações dos termos utilizados pelas partes interessadas.
+Para evitar este tipo de conflito é necessário que as partes interessadas compartilhem a mesma interpretação dos termos utilizados. Dessa forma utiliza-se o glossário para armazenar os termos e suas condições.
+
+O glossário possui os seguintes elementos:
+
+ - Termos técnicos específcos do contexto
+ -  Abreviaturas e acrônimos
+ -  Conceitos do dia-a-dia que possuem um determinado significado 
+ - Sinônimos
+ - Homônimos
+
+Regras para utilizar o glossário:
+
+* O glossário tem que ser gerenciado de forma centralizada.
+* Deve eleger quem fará a manutenção do glossário.
+* Tem que ser atualizado constantemente.
+* Tem que estar acessível.
+* Seu uso tem que ser obrigatório.
+* Deve conter a origem dos termos.
+* Precisa ser aprovado pelas partes interessadas.
+* Deve ter uma estrutura consistente.
