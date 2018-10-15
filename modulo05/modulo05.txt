@@ -1,0 +1,115 @@
+Módulo 05 - Documentar requisitos usando Linguagem Natural
+
+Parte 01 - Efeitos da Linguagem 
+
+Os requisitos são frequentementes documentados em linguagem natural(prosa livre).
+A linguagem natural possui a vantagem de não exigir preparação para leitura pelas partes interessadas.
+
+A linguagem natural pode ser utilizada para descrever quaisquer circunstâncias.
+Não existe limites.
+
+Desvantagem:
+
+A lingaguem natural é inerentemente ambígua
+Exemplo:
+	A mãe de Pedro entrou com seu carro na garagem.
+	A mãe de Pedro entrou na garagem com o carro dela.
+
+Partes interessadas possuem diferentes níveis de conhecimento, experiências e origens.
+
+Durante o processo de percepção e representação das informações ocorrem os EFEITOS TRANSFORMACIONAIS que prejudicam o entendimento dos requisitos.
+
+	EFEITOS TRANSFORMACIONAIS
+
+1 - Nominalização
+	
+	* Na nominalização processos são reduzidos. 	
+	* Na nominalização um processo é convertido em um evento e assim toda informação que descreve o processo é perdida.
+
+Exemplo:
+	No caso de uma falha do sistema, a reinicialização do sistema deve ser realizada.	
+
+Os termos FALHA DO SISTEMA e REINICIALIZAÇÃO são processos que precisam ser analisados com mais critério.
+
+	* Não há problemas em utilizar termos normalizados para descrever processos complexo. No entanto, o processo deve ser explicitamente definido pelo termo usado. A definição do processo é adicionada no glossário.
+	* O termo normalizado não deve permitir mais de uma interpretação dos processos.
+	* Não é necessário evitar nominalizações, porém, deve ser utilizado se o processo é completamente difinido.
+	* Nominalizações devem ser examinadas se foram detalhadas suficientemente e se está claro para as partes interessadas.
+
+
+
+
+2 - Substantivo sem indicador de referência
+	* Sâo frequentementes especificados de forma incompleta.
+	* Isso são chamados pelos linguistas de ausência de índice de refêrencia.
+	* Exemplos de substantivos sem índice de refêrencia:
+		* O usuário
+		* O sistema
+		* O controlador
+		* A mensagem
+		* Os dados
+		* A função
+	Exemplo:
+Sem indicador de refêrencia:
+Os dados devem ser exibidos para o usuário no terminal.
+
+Perguntas:
+	* Que DADOS são esses?
+	* Quem é o USUÁRIO?
+	* Que TERMINAL  é esse?
+
+	Exemplo:
+Com indicador de refêrencia:
+O sistema de faturamento deve mostrar os dados de bilhetagem para o usuário registrado no terminal que ele estiver logado.
+
+3 - Quantificadores universais
+	* Quantificadores especificam quantidade e frequências.
+	* Quantificadores universais agrupam um conjuto de objetos e fazem uma declaração sobre o comportamento desse conjunto. 
+	* Quantificadores universais são utilizados com as seguintes perguntas:
+		- Nunca
+		- Sempre
+		- Não
+		- Nenhum
+		- Cada
+		- Todos
+		- Alguns
+		- Nada
+	* Ao utilizar um quantificador universal existe o risco de que um comportamento ou propiedade não se aplicar a todos os objetos dentro do conjunto especificado.
+	* Partes interessadas tendem a agrupar objetos, mesmo havendo exceções, onde o comportamento não se aplica a todos os objetos do grupo.
+ 
+Exemplo:
+ o sistema deve mostrar todos os dados em cada tela
+	
+Perguntas surgem:
+	* Será TODOS os dados mesmo?
+	* Devem ser mostrados em TODAS as telas?
+
+
+4 - Condições Especificadas de Forma Incompleta
+	* Uma condição formulada de forma incompleta é um indicador em potencial de perda de informação.
+	* Um requisito que contém condições especificam geralmente apenas o comportamento que tem que ocorrer quando uma condição é alcançada.
+	* É vital também definir o que deve ser feito quando a condição não é alcançada. Esta geralmente é omitida.
+	* No caos de estruturas condicionais complexas, tabelas de decisão podem auxiliar o engenheiro de requisitos a encontrar variáveis não especificadas.
+	* Palavras gatilhos
+		- Se... Então
+		- No caso de ...
+		- Se ...
+		- Em função de ...
+
+Exemplo: 
+	Os pedidos de venda acima de R$1.000 devem ser acatados pelo sistema de vendas.
+	
+As seguintes perguntas surgem:
+	- O que fazer com os pedidos de R$1.000	?
+	- O que faze com os pedidos inferiores a R$1.000?
+
+ Usando de forma completa as condições:
+
+	Os pedidos de venda acima de R$1.000 deven ser acatados pelo sistema de vendas  
+		e
+	Os pedidos com valor igual ou inferior a 
+
+5 - Verbos de processo especificados de forma incompleta
+
+
+
