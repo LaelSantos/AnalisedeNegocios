@@ -105,11 +105,100 @@ As seguintes perguntas surgem:
 
  Usando de forma completa as condições:
 
-	Os pedidos de venda acima de R$1.000 deven ser acatados pelo sistema de vendas  
+	Os pedidos de venda acima de R$1.000 devem ser acatados pelo sistema de vendas  
 		e
-	Os pedidos com valor igual ou inferior a 
+	Os pedidos com valor igual ou inferior a R$1.000 não devem ser acatados pelos sistema de vendas
 
 5 - Verbos de processo especificados de forma incompleta
+	* Alguns verbos de ação precisam de mais de um substantivo para serem completamente definidos.
+	* O verbo transmitir, por exemplo, exige pelo menos três suplementos para ser considerado completo.
+		- O que está sendo transmitido
+		- De onde está sendo transmitido
+		- Para onde está sendo transmito.
 
 
+	* Em alguns casos os adjetivos ou advérbios podem ser utilizados para completar o sentido do verbo.
+	Exemplo:
+	Os dados foram transmitidos para um sistema de pedidos.
 
+Perguntas?
+	Que dados foram transmitidos?
+	De onde os dados foram transmitidos?
+
+ Os dados de pedido de vendas foram transmitidos do dispositivo móvel do vendedor para o sistema de pedidos.
+
+	* Evitar o uso da voz passiva.
+		Exemplo: Os dados de login foram fornecidos no login.
+	* Ao utilizar voz ativa evita-se verbos formulados de forma incompleta.
+		Exemplo: O usuário forneceu os seusdados no login.
+
+___________________________________________________________________________________________________________________________________________________
+
+Parte 02 - Construção de Requisitos usando Templates de Sentenças
+
+Cruando Requisitos utilizando templates
+	
+	- Um template de requisito é arcabouço para a estrutura sintética de um requisito.
+	- Templates de requisitos fornecem abordagem simples e fácil para reduzir os problemas de linguagem.
+	- Template de requisitos auxiliam o engenheiro de requisitos em alcançar alta qualidade na definição de requisitos com baixo custo e bom aproveitamento do tempo. 
+	- Para alcanççar clareza na construção de uma boa documentação deve-se utiliza templates de requisitos e o glossário.
+ 
+
+Como utilizar corretamente templates de requisitos?
+
+Passo 1. Determinar a obrigatoriedade legal:
+	- Determina-se a obrigação legal de um requisito utiliza-se os seguintes verbos: deve, deveria, irá e pode.
+	- Estes verbos identificam se os requisitos são obrigatórios, requisitos urgentes, requistos futuros e requisitos desejáveis.
+ 	- Em vez de se utilizar verbos pode-se utilizar um atributo de requisito para determinar a obrigação legal. 
+	- Exemplo: Pedidos de venda com valor inferior a R$1.000,00 devem ser desconsiderados.
+	
+
+Passo 2. Determinar o núcleo do requisito:
+	- O núcleo de um requisito é a funcionalidade que é especificada. Exemplo: Salvar, imprimir, calcular e etc.
+	- Esta funcionalidade é chamada de processo.
+	- Processos são atividade e só pode ser descritas com verbos.
+	- Neste caso descrevemos o processo que descreve o comportamento do sistema.
+	- As palavras que utilizam para descrever o processo definem a semântica e, portanto, precisam ser claros e consistentes.
+
+Passo 3. Caracterizar a atividade do sistema:
+Para requisitos funcionais a atividade do sistema pode ser classificada em três tipos:
+	- Atividade autômoma do sistema: o sistema executa um processo de forma autônoma.
+	- Interação do usuário: o sistema fornece o processo ao usuário como um serviço.
+	- Requisito de interface: o sistema executa um processo dependendo de terceiros; (EX: outro sistema). O sistema é passivo e aguarda por um evento externo.	
+
+Template tipo 1: Atividade Autônoma de Sistema
+	- Utiliza-se o tipo 1 quando requisito são construídos para descrever atividades do sistema que são executadas de forma autônoma.
+	- O usuário não interage com a atividade.
+	- O verbo neste caso descreve a funcionalidade executada pelo sistema.
+
+Template tipo 2: Interação com usuário
+	- Este é o tipo de template utilizado quando o sistema fornece uma funcionalidade para o usuário onde o usuário faz input de dados ou quando o sistema interage diretamente com o usuário.
+
+Template tipo 3: Requisito de Interface
+	- Este é o template utilizado quano o sistema executa uma atividade e é dependente de terceiros.
+	- Sempre que mensagens ou dados são recebidos por um terceiro ( ex: outro sistema) o sistema tem que reagir e executar um comportamento específico.
+
+Passo 4. Inserir objetos e complementos:
+	- Alguns verbos exigem um ou mais objetos para serem considerados completos.
+	- Esses complementos podem ser adjetivos e advérbios.
+	- O verbo imprimir, por exemplo, necessita de o quê está sendo impresso e onde está sendo impresso.
+
+Passo 5. Determinar condições lógicas e temporais
+	- Requisitos geralmente não documentam funcionalidades contínuas.
+	- Requisitos geralmente documentam funcionalidades  ou fornecidas sob certas restrições lógicas e temporais.
+	- Deve-se evitar a utilização da palavra "Quando."
+	- Para diferenciar condições lógicas de condições temporais utilizamos as seguintes construções:
+		- Assim que, para condições temporais
+		- Se, para condições lógicas
+
+ -  Template de requisitos devem ser utilizados quando membros do projeto mostram interesse em um processo de desenvolvimento formal.
+ -  Estilo e criativadade são limitados quando templates de requisitos são utilizados. 
+ -  A utilização de templates de requisitos não deve ser feita de forma compulsória, mas deve ser adotada como ferramenta suplementar.
+
+_____________________________________________________________________________________________________________________________________________________
+
+Resumo: 
+
+Linguagem natural é frequentemente usada na documentação de requisitos, (prosa livre).
+
+	

@@ -2,7 +2,7 @@ Módulo 04 - Documentação de Requisitos
 
 Parte 01 - Desenho do Documento
 
-Dura a engenharia de requisitos a informação produzida precisa ser documentada. Pode ser utilizados com base legal.
+Durante a engenharia de requisitos a informação produzida precisa ser documentada. Pode ser utilizados com base legal.
 
 Exemplos de documentação:
 	- Atas de reuniões
@@ -25,7 +25,7 @@ Menos formalidade:
 	* Linguagem natural com texto estruturado.
 
 Especificação de requisitos:
-	-  É uma coleção de requisitos que represanta de forma sistemática geralmente para um sistema ou componente, atendendo a um conjuto de critérios.
+	-  É uma coleção de requisitos que representa de forma sistemática geralmente para um sistema ou componente, atendendo a um conjunto de critérios.
 
 Documentos de requisitos é sinônimo de especificação de requisitos
 
@@ -305,3 +305,10 @@ Regras para utilizar o glossário:
 * Deve conter a origem dos termos.
 * Precisa ser aprovado pelas partes interessadas.
 * Deve ter uma estrutura consistente.
+
+
+_____________________________________________________________________________________________________________________________________________________
+Resumo:
+
+Durante a engenharia de requisitos, toda informação deve ser documentada pois, pode ser usado como base legal, durante todo ciclo de vida de desenvolvimento do sistema.
+
