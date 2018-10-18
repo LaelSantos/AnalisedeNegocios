@@ -10,7 +10,7 @@ Não existe limites.
 
 Desvantagem:
 
-A lingaguem natural é inerentemente ambígua
+A lingaguem natural é inerentemente ambígua.
 Exemplo:
 	A mãe de Pedro entrou com seu carro na garagem.
 	A mãe de Pedro entrou na garagem com o carro dela.
@@ -200,5 +200,50 @@ ________________________________________________________________________________
 Resumo: 
 
 Linguagem natural é frequentemente usada na documentação de requisitos, (prosa livre).
+Como vantagem: Não exige tempo de preparo para ser lida e compreendida pelos stakeholders.
+Não existe limites para documentar, documenta-se qaisquer circunstâncias usando a Linguagem Natural. 
+Desvantagem: A linguagem natural é inerentemente ambígua, podemos muitas vezes ser interpretadas de várias formas pelas partes interessadas, por seus diferentes níveis de conhecimento, origens sociais e diferentes experiências.
+
+Ocorre os chamados efeitos transformacionais:
+
+	- Nominalização
+	  - Definir os processos completamente
+		- Ex: (input, reset, crash)
+	- Substantivo sem indicador de referência
+	  - São frequentementes especificados de forma incompleta ou incorreta
+		- Ex: (o usuário, o sistema, os dados ou a função)
+	- Quantificadores universais
+	  - Especificam quantidade e frequência.
+		- Ex: (nunca, sempre, nenhum, cada, todos, alguns ou nada)
+	  - Agrupam um conjunto de objetos e fazem declaração sobre  comportamento deste grupo.
+	- Condições especificados de forma incompleta
+	  - Condições especificam o comportamento que deve ocorrer quando a condição não for atendida
+		- Ex: (Se... Então, caso... se, ou; depedendo de...)
+	- Verbos de processo especificados de forma incompleta
+	  - Alguns verbos requerem mais de um substantitivo, como o transmitir, o que é transmitido, para onde é transmitido.
+	  - Evitar usar a voz passiva.
+		- Uso e voz ativa.
+
+Na construção de templates de requisitos tem que seguir os passos:
+vantagens: apoio a alta qualidade e não-ambiguidade sintática, baixo custo e tempo otimizado.
+
+Passo 1 - Determinar a obrigatoriedade legal:  Usando os verbos modais (DEVERÁ, DEVERIA, IRÁ)
+
+Passo 2- Determinar o núcleo do Requisito: Funcionalidade ( Processo).
+
+Passo 3 Caracterizar a Atividade do Sistema: Atividade autônoma; Interação com o usuário; Requisito de Interface
+	Template tipo 1
+		<Verbo de processo> usado para forma autônoma do sistema
+	Template tipo 2 - Interação com o usuário
+		Sistema fornece ma funcionalidade paraum usuário, ou interage diretamente com o usuário.
+	Template tipo 3 - Requisito de Interface
+		Sistema executa uma atividade e depende de sistemas adacentes.
+
+Passo 4 - Inserir objetos e complementos: Alguns verbos de processos necessitam de mais de um ou mais objetos adicionais para ser considerados completos.
+
+Passo 5 - Determinar Condições Lógicas ou temporais: Requisitos não docuementam funcionalidade contínuas, mas funcionalidades que são executadas ou fornecidade somente sob certas condições, lógicas ou temporais. Usando conjunção lógica "SE" , conjunção temporal "ASSIM QUE", evitar o uso de quando.
+
+Templates devem se usados quando membros do projeto tem interesse em um processo formal de desenvolvimento. Estilo e criatividade são limitados quando templates de requisitos são utilizados.Usar como ferramenta complementar.
+
 
 	
