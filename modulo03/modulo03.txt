@@ -407,12 +407,12 @@ Conforme o modelo de Kano os requisitos tem categorização para satisfação do cli
 
  -  Fatores básicos de satisfação: (conhecimento subsconciente)
 	- Requisitos e propiedades que devem ser atendidos pelo sistema de qualquer maneira e que as partes interessadas não falam.
-	- Técnicas de observação e técnicas centradas a documentos são amis indicadas para estes tipos de requisitos.
+	- Técnicas de observação e técnicas centradas a documentos são mais indicadas para estes tipos de requisitos.
  -  Fatores esperados de satisfação: (conhecimento consciente)
 	- Requisitos e propiedades que devem ser atendidos pelo sistema que foi especificado e exigidas pelas partes interessadas.
 	- Técnicas de pesquisa, podem ser usadas para elicitar estes tipos de requisitos.
- -  Fatores inesperadoos de satisfação: (conhecimento inconsciente)
-	- Requisitos e propiedades do sistema que não foi exigida, quando testa o sistema é reconhecida pelo stakeholder ou quando o engenheiro de requisitos as propõe.
+ -  Fatores inesperados de satisfação: (conhecimento inconsciente)
+	- Requisitos e propriedades do sistema que não foi exigida, quando testa o sistema é reconhecida pelo stakeholder ou quando o engenheiro de requisitos as propõe.
 	- Técnicas de criatividade são mais indicadas para elicitar este tipos de fatores
 
 Várias técnicas são usadas para o levantamento de requisitos:
