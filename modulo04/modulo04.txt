@@ -221,7 +221,7 @@ Parte 06 - Critérios de Qualidade para Requisitos
 
 Quando os requisitos obedecem um conjuto de critérios de qualidade aumenta-se a probabilidade de serem aceitos pelo leitor.
 
-A nomra IEEE830-1998 define os seguintes critérios:
+A norma IEEE830-1998 define os seguintes critérios de qualidade:
 * Acordado
 * Priorizado
 * Não ambíguo
@@ -311,4 +311,75 @@ ________________________________________________________________________________
 Resumo:
 
 Durante a engenharia de requisitos, toda informação deve ser documentada pois, pode ser usado como base legal, durante todo ciclo de vida de desenvolvimento do sistema.
+A atividade de documentação mais importante durante e engenharia é a documentação de requisitos do sistema de maneira apropriada.
+Em princípio qualquer técnica pode ser utilizada para documentar requisitos, podem ser utilizada desde a linguagem natural até a utilização de modelos conceituais(diagrama de contexto, diagrama de fluxo de dados, diagrama de ativiades, diagrama de sequências).
+
+Mais formalidade:
+	* Modelos conceituais
+Menos formalidade:
+	* Linguagem natural em prosa livre
+	* Linguagem natural com texto estruturado.
+Especificação de requisitos:
+	-  É uma coleção de requisitos que representa de forma sistemática geralmente para um sistema ou componente, atendendo a um conjunto de critérios.
+
+Porque é importante documentar os requisitos:
+ 1 - Requisitos formam a base para o desenvolvimento do sistema.
+ 2 - Requisitos tem relevância legal.
+ 3 - Documentos de requisitos são complexos.
+ 4 - Requisitos deve ser acessíveis por todas as pares envolvidas no projeto.
+ 5 - Compartilhar uma visão única dos requisitos.
+
+Perspectiva Estrutural:
+	- Documenta-se os aspectos estáticos-estruturais dos requisitos. EX: ESTRUTURA DE DADOS, entrada e saída, relações de dependências entre sistenma e o contexto e etc.
+ 
+Perspectiva Funcional:
+	- Documenta-se os dados recebidos do contexto  e processados pelo sistema, assim como os dados que retornam para o contexto. Documenta-se também nesta a ordem de processamento dos dados de entrada.
+
+Perspectiva Comportamental:
+	- Documenta-se o sistema e como este se integra  a partir dos DADOS do sistema. Documenta-se também as reações do sistema em reação ao contexto e os efeitos do sistema sobre seu ambiente.
+
+É necessario uma boa estruturação do documento, podendo utilizar modelos padronizados. As 3 mais utilizadas são: RUP, Modelo V e IEEE 830-1998.
+
+Para quê o documento de requisitos é utilizado:
+
+ - Planejamento
+ - Projeto Arquitetônico
+ - Implementação
+ - Teste
+ - Gerenciamento de Mudanças
+ - uso do sistema e manutenção do sistema
+ - Gerenciamento do contrato
+
+Critérios de qualidade para os documentos de requisitos:
+
+1 - Não-ambiguidade e Consistências
+
+2 - Estrutura Clara
+
+3 - Modificabilidade e Extensibilidade
+	
+4 - Completude
+	
+5 - Rastreabilidade
+	
+A norma IEEE830-1998 define os seguintes critérios de qualidade:
+* Acordado
+* Priorizado
+* Não ambíguo
+* Válido e Atualizado
+* Correto 
+* Consistente
+* Verificável 
+* Realizável
+* Rastreável
+* Completo
+* Compreensível
+
+O glossário possui os seguintes elementos:
+
+ - Termos técnicos específcos do contexto
+ - Abreviaturas e acrônimos
+ - Conceitos do dia-a-dia que possuem um determinado significado 
+ - Sinônimos
+ - Homônimos
 
