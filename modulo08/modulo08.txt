@@ -1,0 +1,167 @@
+Módulo 08 - Gerenciar Requisitos
+Parte 01 - Desginando Atributos para os Requisitos
+
+O gerenciamento de requisitos abrange as seguintes atividades:
+* Designar atributos para requisitos
+* Definir visualizações de requisitos
+* Priorizar requisitos
+* Rastrear requisitos
+* Determinar o versionamento de requisitos
+* Gerenciar as mudanças de requisitos
+
+As informações sobre requisitos são documentadas ao longo do ciclo de vida de um sistema.
+O identificador único, nome do requisito, descrição e estado do requisito são apenas alguns exemplos.
+
+Atributos de Requisitos
+
+* Chamamos de atributos de requisitos as informações que descrevem o requisito.
+* Um atributo composto de 
+	1 - Nome único
+	2 - Descrição curta do conteúdo
+	3 - Valor atribuído ao atributo
+* A dfinição de atributos é feita através de um template ou modelo.
+* Esse modelo geralmente assume uma estrutura de tabela.
+* Um atributo também é camado de tipo de atributo.
+* O conjunto de atributo pode variar conforme o tipo de requisitos(requisito funcional, de qualidade e restrição).
+
+Esquema de Atributos
+
+* Esquema de atributos é o conjunto de todos os atributos definidos para um tipo de requisito.
+* Um esquema de atributos é geralmente criado para cada projeto.
+* A utlização de templates de atributos tem como vantagem permitir que diferentes partes interessadas localizam rapidamente as informações desejadas.
+* A utilização de templates também permite ao engenheiro de requisitos lembrar todas as informações que precisam ser informadas para cada requisitos.
+* A utilização de templates permite a documentação de requisitos de forma sistemática.
+Tipo de atributos frequentemente utilizados:
+ 
+ - Identificador: Identificador único em um conjuto de requisitos.
+ - Nome: Descrição curta e úncica do requisito.
+ - Descrição: Descrição breve sobre o conteúdo do requisito
+ - Versão: Versão atual do requisito. 
+ - Autor: Nome do autor do requisito 
+ - Fonte: Fonte do requisito. 
+ - Estabilidade: Descrição da expectativa de mudanças sobre o requisitos. Exemplo: fixa, estabilizada e volátil.
+ - Criticidade: Descrição da exepectativa da extensão de perdas e danos, e a probabilidade de ocorrência.
+ - Prioridade: Descrição da prioridade em função da priorização selecionada. A priorização selecionada pode ser: custo de oportunidade, risco para o negócio e etc.
+
+Tipos de atributos adicionais
+
+ - Responsável: Nome da(s) pessoas(s) responsável pelo conteúdo do requisito.
+ - Tipo de requisito: Descrição do tipo do requisito(funcional, de qualidade e restrição). 
+ - Status do conteúdo: Estado atual do requisito em relação a seu conteúdo.
+ - Status da validação: Estado atual do requisio em relação a validação.
+ - Status do acordo: Estado atual do requisito em relação ao acordo entre as partes interessadas.
+ - Esforço: Estimativa de esforço para implementação do requisito.
+ - Entrega ou Release: Entrega na qual o requisito será implementado.
+ - Obrigatoriedade legal: Descrição de grau de obrigatoriedade de requisitos.
+ - Referências Cruzadas: Descreve os relacionamento com outros requisitos.
+ - Informações gerais: Informações adicionais relevantes.
+
+O que é necessário para criar um esquema de atributos de um determinado projeto:
+* Para definir o esquema de atributos os seguintes aspectos devem ser considerados:
+	* Propiedades do projeto.
+	* Restrições organizacionais.
+	* Propiedades regulamentos do domínio da aplicação
+	* Restrições do processo de desenvolvimento.
+* Quando se utiliza ferramentas de gerenciamentos de requisitos a estrutura de atributos de requisito é geralmente baseada em modelos de informação.
+* A utilização de modelos de informação facilita o trabalho de definição de dependências de requisitos em relação a outros requisitos.
+* Templates podem ser gerados com base em modelos de informação.
+
+Para o exame de certificação ficar atento aos atributos de requisitos mais utilizados e aos aspectos que devem ser considerados durante a criação do esquema de atribtos para um projeto.
+
+________________________________________________________________________________________________________________________
+Parte 2 - Visualizações de Requisitos
+
+Estrutura requisitos através de modelos de informação permite a criação de visualizações personalizadas de requisitos.
+
+A medida que projeto avança mais requisitos surgem e a dependência entre eles aumenta.
+
+Portanto é necessário no dia a dia consultar requisitos seletivamente, filtrando os requisitos conforme a necessidade.
+
+Diferente membros no time de desenvolvimento do sistema tem necessidades distintas de visualização de informações de requisitos.
+
+Um desenvolvedor, por exemplo, está mais interessado naqueles atributos relacionados a implementação do requisito.
+
+É comum a criação de visualizações distintas para cada papel dentro do time de desenvolvimento.
+
+Visualização é  uma apresentação das informações de requisitos.
+
+Essa visualização pode ser seletiva ou consolidada.
+
+
+Visualização Seletiva de Requisitos
+	* Uma visualização é uma apresentação parcial das informações de requisitos.
+	* Com uma visualização é possivel:
+		* Filtrar requisitos específicos.
+		* Ocultar certos atributos dos requisitos.
+		* Filtrar requisitos e ocultar atributos.
+* Uma visualização consolidada é aquela que apresenta informações que não estão imediatamente contidas nos requisitos.
+* É criada a partir da consolidação dos dados de requisitos.  
+* Uma visualização consolidada pode ser a geração de um gráfico de barras de quantidade de requisitos do tipo funcional, de qualidade e restrições.
+
+Para o exame de certificação conhecer os 2 tipos de visualizações - seletiva e consolidada.
+
+__________________________________________________________________________________________________________________________
+Parte 3 - Priorização de Requisitos
+
+Requisitos são priorizados durante a Engenharia de Requisitos.
+Diferente critérios são utilizados para priorizar requisitos. Sendo assim, um ou mais atributos são utilizados na priorização.
+Exemplo: Priorização em vista do custo de implementação.
+
+Método de Priorização de Requisitos
+
+* Antes de priorizar é necessário identificar o propósito da priorização.
+* Com base no propósito escolhe-se o critério de priorização:
+	* Custo de implementação
+	* Risco	
+	* Valor para o negócio.
+* Dependendo da priorização é necessário que certas partes interessadas sejam convocadas.
+Exemplo:
+Para um priorização baseada no custo de implementação os desenvolvedores devem ser convocados pois estes fornecerão estimativas de tempo. Com base nessas estimativas o cuso será estimado e a priorização será feita.
+
+* A priorização é afetada diretamente pelo nível de abstração dos requisitos.
+* Partes interessadas tendem a priorizar aqueles requisitos com níveis mais altos de abstração do que aqueles requisitos com níveis mais concretos.
+* A priorização é afetada diretamente pelo nível de abstração dos requisitos.
+* Partes interessadas tendem a priorizar aqueles requisitos com níveis mais altos de abstração do que aqueles requisitos com níveis mais concretos.
+* A falta de cuidado com o nível de abstração leva a uma priorização enganosa e inconsistente.
+
+As técnicas de Priorização de Requisitos:
+
+* As técnicas de priorização variam em função de:
+	* Tempo
+	* Esforço
+	* Adequabilidade dos critérios de priorização e propiedades do projeto.
+* Podem ser utilizadas técnicas ad hoc e técnicas analíticas.
+* Técnicas simples são apropriadas quando se tem recursos disponíveis limitados.
+* Técnicas analíticas são recomendadas quando o processo de decisão não é bem compeendido.
+
+Ranking
+	* Técnica onde as partes interessadas organizam os requisitos em função de um critério específico.
+Exemplo: Priorização de requisitos por valor para o negócio.
+
+Top 10
+	* Técnica onde as partes interessadas organizam os requisitos em função de um critério específico e selecionam os primeiros 10 requisitos mais importantes.
+	* Quando mais alto no ranking o requisito está, mais importante é o requisito em relação ao critério escolhido.
+Exemplo: Top 10 requisitos mais fáceis de serem implementados.
+
+Classificação por Critério Único
+* É uma técnicas que ocorre na priorização baseada na importância da execução dos requisitos para o sucesso do sistema.
+* Para cada requisito é atribuído uma prioridade:
+	* Mandatório: O requisito deve ser implementado a qualquer custo, sob risco de ameaçar o sucesso do sistema.
+	* Opcional: O requisito não precisa ser obrigatoriamente implementado. Deixar de implementar alguns requisitos opcionais não compromete o sucesso do sistema.
+	* Cosméticos: "é interessante ter" ou "nice-to-have": O requisito não influencia o sucesso do sistema se não for implementado.
+
+Classificação Kano
+
+* O modelo de Kano também pode ser utilizado para priorizar requisitos.
+* Os requisitos são classificados da seguinte forma:
+	* Propriedades básicas de satisfação: É o requisito que tem que ser implementado para que o sistema tenha sucesso.
+	* Propriedades esperadas de satisfação: É o requisito que se implementado aumenta satisfação do cliente.
+	* Propriedades inesperadas de satisfação: É o requisito que se implementado aumenta exponencialmente a satisfação do cliente.
+
+Matriz de Priorização de Wiegers
+
+
+
+
+
+
